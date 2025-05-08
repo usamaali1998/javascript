@@ -22,3 +22,7 @@ console.log(Array.isArray("Usama"))
 console.log(Array.from("Usama"))
 console.log(Array.from({name: "usama"})) //interesting for interview becoy it will not convert and just return empty arrray
 
+let score1=200
+let score2=3000
+let score3=444
+console.log(Array.of(score1,score2,score3))
